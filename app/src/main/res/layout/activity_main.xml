@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.example.administrator.loopviewapplication.activity.MainActivity">
+  <LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <RelativeLayout
+      android:id="@+id/rl_inner_area"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="40dp"
+      android:background="@color/c_2bb2ba">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="内嵌页面"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_constellation_area"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="20dp"
+      android:background="@color/c_2bb2ba">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="星座选择"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_time_area"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="20dp"
+      android:background="@color/c_2bb2ba">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="时间选择"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_date_area"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="20dp"
+      android:background="@color/c_2bb2ba">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="日期选择"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+      android:id="@+id/rl_height_area"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="20dp"
+      android:background="@color/c_2bb2ba">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="身高选择(身高体重腰围)"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">LoopViewApplication</string>
+  <string name="year">年</string>
+  <string name="month">月</string>
+  <string name="day">日</string>
+  <string name="cm">cm</string>
+  <string name="select_time_tip">选择的时间不能超过当前时间</string>
+</resources>

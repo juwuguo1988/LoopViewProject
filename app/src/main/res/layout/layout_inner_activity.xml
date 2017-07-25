@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/tv_select_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/c_2bb2ba"
+    android:textSize="20sp" />
+  <com.example.administrator.loopviewapplication.loopview.LoopView
+    android:id="@+id/lv_view"
+    android:layout_width="wrap_content"
+    android:layout_height="140dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical" />
+</RelativeLayout>
